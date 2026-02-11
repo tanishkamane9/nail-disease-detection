@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* NAVBAR */
+.navbar {
+    background-color: #1e7f67;
+    padding: 15px 40px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar a {
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* HERO */
+.hero {
+    height: 400px;
+    background: linear-gradient(
+        rgba(30,127,103,0.7),
+        rgba(30,127,103,0.7)
+    ),
+    url("../images/doctor.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    padding-left: 80px;
+}
+
+.hero-text {
+    color: white;
+}
+
+.hero-text h1 {
+    font-size: 40px;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 25px;
+    background-color: white;
+    color: #1e7f67;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+/* MODELS */
+.models {
+    text-align: center;
+    padding: 50px;
+}
+
+.model-cards {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.card {
+    width: 150px;
+    height: 150px;
+    background-color: #60d0a5;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+}
+
+/* FOOTER */
+.footer {
+    background-color: #1e7f67;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}

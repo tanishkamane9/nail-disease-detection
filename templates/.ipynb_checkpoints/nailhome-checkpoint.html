@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Nail Disease Prediction</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+</head>
+<body>
+
+<div class="navbar">
+    <div><strong>NAIL DISEASE PREDICTION</strong></div>
+    <div>
+        <a href="/">Home</a>
+        <a href="/about">About</a>
+    </div>
+</div>
+
+<div class="container">
+    <h2>Upload Nail Image</h2>
+    <form action="/nailresult" method="POST" enctype="multipart/form-data">
+        <input type="file" name="image" required>
+        <br><br>
+        <button class="btn" type="submit">Predict</button>
+    </form>
+</div>
+
+<div class="footer">
+    © 2026 Nail Disease Detection Project
+</div>
+
+</body>
+</html>

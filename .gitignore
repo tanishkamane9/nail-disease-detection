@@ -1,0 +1,4 @@
+Vgg-16-nail-disease.h5
+__pycache__/
+*.pyc
+.env

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Nail Disease Detection</title>
+
+    <!-- IMPORTANT: CSS LINK -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='static/css/doctor.jpg') }}">
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<div class="navbar">
+    <div class="logo">NAIL DISEASE DETECTION</div>
+    <div class="menu">
+        <a href="/">Home</a>
+        <a href="/about">About</a>
+        <a href="/nailhome">Nail</a>
+    </div>
+</div>
+
+<!-- HERO SECTION -->
+<div class="hero">
+    <div class="hero-text">
+        <h1>Early Stage Nail Disease Diagnosis</h1>
+        <p>Deep Learning based prediction system using VGG16.</p>
+        <a href="/nailhome" class="btn">Start Prediction</a>
+    </div>
+</div>
+
+<!-- MODELS SECTION -->
+<div class="models">
+    <h2>MODELS EMPLOYED FOR THE PROJECT</h2>
+
+    <div class="model-cards">
+        <div class="card">VGG16</div>
+        <div class="card">RESNET50</div>
+        <div class="card">INCEPTIONV3</div>
+        <div class="card">XCEPTION</div>
+    </div>
+</div>
+
+<!-- FOOTER -->
+<div class="footer">
+    © 2026 Nail Disease Detection Project
+</div>
+
+</body>
+</html>

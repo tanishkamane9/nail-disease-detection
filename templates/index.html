@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nail Disease Detection</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<div class="navbar">
+    <div class="logo">NAIL DISEASE DETECTION</div>
+    <div class="menu">
+        <a href="/">HOME</a>
+        <a href="/about">ABOUT</a>
+        <a href="/nailhome">NAIL</a>
+    </div>
+</div>
+
+<!-- HERO SECTION -->
+<div class="hero">
+    <div class="hero-text">
+        <h1>Early Stage Nail Disease Diagnosis</h1>
+        <p>Deep Learning based prediction system using VGG16.</p>
+        <a href="/nailhome" class="btn btn-primary">Start Prediction</a>
+    </div>
+</div>
+
+<!-- MODELS SECTION -->
+<div class="models">
+    <h2>MODELS EMPLOYED FOR THE PROJECT</h2>
+    <p class="subtitle">Transfer Learning Models</p>
+
+    <div class="model-cards">
+        <div class="card">
+            <div class="card-circle"></div>
+            <h3>VGG16</h3>
+            <p>VGG16 is a convolutional neural network. The pretrained network can classify images into 1000 object categories, such as keyboard, mouse, pencil, and many animals.</p>
+        </div>
+        <div class="card">
+            <div class="card-circle"></div>
+            <h3>RESNET50</h3>
+            <p>ResNet50 is a convolutional neural network. The pretrained network can classify images into 1000 object categories, such as keyboard, mouse, pencil, and many animals.</p>
+        </div>
+        <div class="card">
+            <div class="card-circle"></div>
+            <h3>INCEPTIONV3</h3>
+            <p>Inceptionv3 is a convolutional neural network. The pretrained network can classify images into 1000 object categories, such as keyboard, mouse, pencil, and many animals.</p>
+        </div>
+        <div class="card">
+            <div class="card-circle"></div>
+            <h3>XCEPTION</h3>
+            <p>Xception is a convolutional neural network. The pretrained network can classify images into 1000 object categories, such as keyboard, mouse, pencil, and many animals.</p>
+        </div>
+    </div>
+</div>
+
+<!-- FOOTER -->
+<div class="footer">
+    <div class="footer-content">
+        <div class="footer-section">
+            <h4>Reach at..</h4>
+            <p>📍 Location</p>
+            <p>📞 Call: +91 1234567890</p>
+            <p>📧 demo@gmail.com</p>
+            <p>
+                <a href="#">f</a>
+                <a href="#">𝕏</a>
+                <a href="#">in</a>
+                <a href="#">@</a>
+            </p>
+        </div>
+        <div class="footer-section">
+            <h4>About</h4>
+            <p>Health systems are under greater pressure than ever, but along with its other uses, the potential of AI to provide much-needed relief to overworked doctors. Let streamline the triage process. It seamlessly integrates into the medical workflow and uses the same tools. Physicians embrace at medical school, delivering enhanced insights by calculating the likelihood of particular conditions based on the patient's symptoms. AI can facilitate a faster, more accurate diagnosis, enabling doctors to take, ultimately meaning quicker answers and patient recovery as we help providers inform virtually who need to see a doctor.</p>
+        </div>
+        <div class="footer-section">
+            <h4>Links</h4>
+            <p><a href="/">Home</a></p>
+            <p><a href="/about">About</a></p>
+            <p><a href="/nailhome">Nail</a></p>
+        </div>
+        <div class="footer-section">
+            <h4>Newsletter</h4>
+            <form class="newsletter-form" method="POST">
+                <input type="email" placeholder="Enter email" required>
+                <button type="submit">Subscribe</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
